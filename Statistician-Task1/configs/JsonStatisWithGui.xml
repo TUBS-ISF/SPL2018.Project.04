@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <feature automatic="selected" name="Statistician"/>
+    <feature automatic="selected" name="Data Input"/>
+    <feature automatic="selected" name="File Import"/>
+    <feature manual="selected" name="JSON"/>
+    <feature automatic="selected" name="Data Output"/>
+    <feature manual="selected" name="GUI Tables"/>
+    <feature automatic="selected" name="File Export"/>
+    <feature manual="selected" name="Text file"/>
+    <feature automatic="selected" name="Statistics"/>
+    <feature manual="selected" name="Average"/>
+    <feature manual="selected" name="Median"/>
+    <feature manual="selected" name="Standard Deviation"/>
+    <feature automatic="selected" name="Percentile"/>
+    <feature manual="selected" name="P-95th"/>
+    <feature automatic="selected" name="Confidece Interval"/>
+    <feature manual="selected" name="CI-95th"/>
+</configuration>

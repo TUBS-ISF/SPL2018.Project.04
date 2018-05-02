@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <feature automatic="selected" name="Statistician"/>
+    <feature automatic="selected" name="Data Input"/>
+    <feature automatic="selected" name="File Import"/>
+    <feature automatic="selected" manual="selected" name="DB sqlite"/>
+    <feature automatic="selected" name="Data Output"/>
+    <feature manual="selected" name="GUI Tables"/>
+    <feature automatic="selected" name="File Export"/>
+    <feature manual="selected" name="DB-Sqlite"/>
+    <feature automatic="selected" name="Statistics"/>
+    <feature manual="selected" name="Average"/>
+    <feature manual="selected" name="Median"/>
+    <feature manual="selected" name="Standard Deviation"/>
+    <feature automatic="selected" manual="selected" name="Percentile"/>
+    <feature manual="selected" name="P-99th"/>
+    <feature automatic="selected" manual="selected" name="Confidece Interval"/>
+    <feature manual="selected" name="CI-90th"/>
+</configuration>

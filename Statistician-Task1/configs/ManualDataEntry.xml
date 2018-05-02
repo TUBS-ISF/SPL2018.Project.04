@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <feature automatic="selected" name="Statistician"/>
+    <feature automatic="selected" name="Data Input"/>
+    <feature manual="selected" name="Manual Entry"/>
+    <feature automatic="selected" name="Data Output"/>
+    <feature manual="selected" name="GUI Tables"/>
+    <feature automatic="selected" name="Statistics"/>
+    <feature manual="selected" name="Average"/>
+    <feature manual="selected" name="Median"/>
+    <feature automatic="selected" name="Percentile"/>
+    <feature manual="selected" name="P-99th"/>
+    <feature automatic="selected" name="Confidece Interval"/>
+    <feature manual="selected" name="CI-95th"/>
+</configuration>
