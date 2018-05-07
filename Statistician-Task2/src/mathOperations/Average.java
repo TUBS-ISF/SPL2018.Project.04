@@ -13,9 +13,9 @@ public class Average<N extends Number> implements IMathOperation<N, Double> {
 	
 	@Override
 	public Double execute() {
-		if(list.isEmpty()) return 0.0;
+		if(list == null || list.isEmpty()) return 0.0;
 		double average = 0;
-		for (N value: list) {
+		for (Number value: list) {
 			average += value.doubleValue();
 		}
 		return average/(double) list.size();
