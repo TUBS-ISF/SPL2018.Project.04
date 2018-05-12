@@ -5,8 +5,10 @@
     <feature automatic="selected" name="File Import"/>
     <feature manual="selected" name="JSON"/>
     <feature automatic="selected" name="Data Output"/>
-    <feature manual="selected" name="GUI Tables"/>
+    <feature automatic="selected" manual="selected" name="File Export"/>
+    <feature manual="selected" name="Text file"/>
     <feature automatic="selected" name="Statistics"/>
     <feature manual="selected" name="Average"/>
     <feature manual="selected" name="Median"/>
+    <feature manual="selected" name="StandardDeviation"/>
 </configuration>

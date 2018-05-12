@@ -11,7 +11,7 @@
     <feature automatic="selected" name="Statistics"/>
     <feature manual="selected" name="Average"/>
     <feature manual="selected" name="Median"/>
-    <feature manual="selected" name="Standard Deviation"/>
+    <feature manual="selected" name="StandardDeviation"/>
     <feature automatic="selected" manual="selected" name="Percentile"/>
     <feature manual="selected" name="P-99th"/>
     <feature automatic="selected" manual="selected" name="Confidece Interval"/>

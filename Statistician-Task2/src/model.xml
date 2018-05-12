@@ -13,47 +13,43 @@ The data input type
                 <or abstract="true" name="File Import">
                     <description>
 Input as a file with mutliple formats
-
 </description>
                     <feature name="JSON">
                         <description>
 adds JSON as a data input file format to the program
 </description>
                     </feature>
-                    <feature name="DB sqlite">
+                    <feature abstract="true" name="DB sqlite">
                         <description>
 adds database (sqlite3) file format as a data input
 </description>
                     </feature>
                 </or>
-                <feature name="Manual Entry">
+                <feature abstract="true" name="Manual Entry">
                     <description>
 Enables inserting the data manually just like a type machine
-
 </description>
                 </feature>
             </or>
             <or abstract="true" mandatory="true" name="Data Output">
                 <description>
 The data output type
-
 </description>
-                <feature name="GUI Tables">
+                <feature abstract="true" name="GUI Tables">
                     <description>
 Display the statistics computation results in GUI Tables
-
 </description>
                 </feature>
-                <or name="File Export">
+                <or abstract="true" name="File Export">
                     <description>
 Export the results of the statistics computation as a file with different formats
 </description>
-                    <feature name="Text file">
+                    <feature abstract="true" name="Text file">
                         <description>
 Enables exporting the results in a text file format (.txt)
 </description>
                     </feature>
-                    <feature name="DB-Sqlite">
+                    <feature abstract="true" name="DB-Sqlite">
                         <description>
 Enables exporting the results directly as an extra table/view inside the database file (available only if database option was chosen as input method)
 </description>
@@ -74,7 +70,7 @@ Adds the average operation to the list of possible operations
 Adds the median operation to the list of possible operations
 </description>
                 </feature>
-                <feature name="Standard Deviation">
+                <feature name="SDeviation">
                     <description>
 Adds the standard deviation operation to the list of possible operations
 </description>
@@ -83,17 +79,17 @@ Adds the standard deviation operation to the list of possible operations
                     <description>
 Adds the percentile operation with its different variants to the list of possible operations
 </description>
-                    <feature name="P-99th">
+                    <feature abstract="true" name="P-99th">
                         <description>
 Enables the 99th percentile variant
 </description>
                     </feature>
-                    <feature name="P-95th">
+                    <feature abstract="true" name="P-95th">
                         <description>
 Enables the 95th percentile variant
 </description>
                     </feature>
-                    <feature name="P-90th">
+                    <feature abstract="true" name="P-90th">
                         <description>
 Enables the 90th percentile variant
 </description>
@@ -103,12 +99,12 @@ Enables the 90th percentile variant
                     <description>
 Adds the confidence interval operation with its different variants to the list of possible operations
 </description>
-                    <feature name="CI-95th">
+                    <feature abstract="true" name="CI-95th">
                         <description>
 Enables the 95th percentile variant
 </description>
                     </feature>
-                    <feature name="CI-90th">
+                    <feature abstract="true" name="CI-90th">
                         <description>
 Enables the 90th percentile variant
 </description>
