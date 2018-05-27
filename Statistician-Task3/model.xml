@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+    <properties/>
+    <struct>
+        <and abstract="true" mandatory="true" name="Statistician">
+            <description>
+Statistician is a program that computes statistics for an arbitrary amount of data
+</description>
+            <or abstract="true" mandatory="true" name="DataInput">
+                <description>
+The data input type
+</description>
+                <or abstract="true" name="FileImport">
+                    <description>
+Input as a file with mutliple formats
+</description>
+                    <feature name="JSON">
+                        <description>
+adds JSON as a data input file format to the program
+</description>
+                    </feature>
+                    <feature name="DBsqlite">
+                        <description>
+adds database (sqlite3) file format as a data input
+</description>
+                    </feature>
+                </or>
+                <feature name="ManualEntry">
+                    <description>
+Enables inserting the data manually just like a type machine
+</description>
+                </feature>
+            </or>
+            <or abstract="true" mandatory="true" name="DataOutput">
+                <description>
+The data output type
+</description>
+                <feature name="GUITables">
+                    <description>
+Display the statistics computation results in GUI Tables
+</description>
+                </feature>
+                <or name="FileExport">
+                    <description>
+Export the results of the statistics computation as a file with different formats
+</description>
+                    <feature name="TextFile">
+                        <description>
+Enables exporting the results in a text file format (.txt)
+</description>
+                    </feature>
+                    <feature name="DBSqlite">
+                        <description>
+Enables exporting the results directly as an extra table/view inside the database file (available only if database option was chosen as input method)
+</description>
+                    </feature>
+                </or>
+            </or>
+            <or abstract="true" mandatory="true" name="Statistics">
+                <description>
+Abstract feature which contains the possible statistics operations
+</description>
+                <feature name="Average">
+                    <description>
+Adds the average operation to the list of possible operations
+</description>
+                </feature>
+                <feature name="Median">
+                    <description>
+Adds the median operation to the list of possible operations
+</description>
+                </feature>
+                <feature name="StandardDeviation">
+                    <description>
+Adds the standard deviation operation to the list of possible operations
+</description>
+                </feature>
+                <or name="Percentile">
+                    <description>
+Adds the percentile operation with its different variants to the list of possible operations
+</description>
+                    <feature name="PninetyNinth">
+                        <description>
+Enables the 99th percentile variant
+</description>
+                    </feature>
+                    <feature name="PninetyFifth">
+                        <description>
+Enables the 95th percentile variant
+</description>
+                    </feature>
+                    <feature name="Pninetieth">
+                        <description>
+Enables the 90th percentile variant
+</description>
+                    </feature>
+                </or>
+                <or abstract="true" name="ConfideceInterval">
+                    <description>
+Adds the confidence interval operation with its different variants to the list of possible operations
+</description>
+                    <feature name="CInintyFifth">
+                        <description>
+Enables the 95th percentile variant
+</description>
+                    </feature>
+                    <feature name="CIninetieth">
+                        <description>
+Enables the 90th percentile variant
+</description>
+                    </feature>
+                </or>
+            </or>
+        </and>
+    </struct>
+    <constraints>
+        <rule>
+            <imp>
+                <var>DBSqlite</var>
+                <var>DBsqlite</var>
+            </imp>
+        </rule>
+    </constraints>
+    <calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+    <comments/>
+    <featureOrder userDefined="false"/>
+</featureModel>
