@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/Average.jar"/>
+	<classpathentry kind="lib" path="lib/GUITables.jar"/>
+	<classpathentry kind="lib" path="lib/ManualEntry.jar"/>
+	<classpathentry kind="lib" path="lib/Median.jar"/>
+	<classpathentry kind="lib" path="lib/Pninetieth.jar"/>
+	<classpathentry kind="lib" path="lib/PninetyFifth.jar"/>
+	<classpathentry kind="lib" path="lib/PninetyNinth.jar"/>
+	<classpathentry kind="lib" path="lib/StandardDeviation.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
