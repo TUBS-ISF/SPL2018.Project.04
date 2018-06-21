@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <feature automatic="selected" name="Statistician"/>
+    <feature automatic="selected" name="DataInput"/>
+    <feature manual="selected" name="ManualEntry"/>
+    <feature automatic="selected" name="DataOutput"/>
+    <feature manual="selected" name="GUITables"/>
+    <feature automatic="selected" name="Statistics"/>
+    <feature manual="selected" name="Average"/>
+    <feature manual="selected" name="Median"/>
+    <feature manual="selected" name="StandardDeviation"/>
+    <feature automatic="selected" manual="selected" name="Percentile"/>
+    <feature manual="selected" name="PninetyNinth"/>
+    <feature manual="selected" name="PninetyFifth"/>
+    <feature manual="selected" name="Pninetieth"/>
+    <feature automatic="selected" name="ConfideceInterval"/>
+    <feature manual="selected" name="CInintyFifth"/>
+    <feature manual="selected" name="CIninetieth"/>
+</configuration>

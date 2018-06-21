@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <feature automatic="selected" name="Statistician"/>
+    <feature automatic="selected" name="DataInput"/>
+    <feature manual="selected" name="ManualEntry"/>
+    <feature automatic="selected" name="DataOutput"/>
+    <feature manual="selected" name="GUITables"/>
+    <feature automatic="selected" name="Statistics"/>
+    <feature manual="selected" name="Median"/>
+    <feature automatic="selected" manual="selected" name="Percentile"/>
+    <feature manual="selected" name="PninetyNinth"/>
+    <feature manual="selected" name="PninetyFifth"/>
+    <feature manual="selected" name="Pninetieth"/>
+</configuration>
