@@ -110,6 +110,8 @@ Enables the 90th percentile variant
 </description>
                     </feature>
                 </or>
+                <feature name="Maximum"/>
+                <feature name="Minimum"/>
             </or>
         </and>
     </struct>
